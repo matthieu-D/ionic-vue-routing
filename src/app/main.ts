@@ -79,15 +79,7 @@ const routes = [
     props: true
   },
   {
-    path: "/contact",
-    component: Contact
-  },
-  {
     path: "/about/:id",
-    component: About
-  },
-  {
-    path: "/about",
     component: About
   },
   {
