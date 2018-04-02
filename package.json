@@ -40,8 +40,10 @@
     "vue": "^2.5.13",
     "vue-class-component": "^6.1.2",
     "vue-loader": "^13.7.0",
+    "vue-router": "^3.0.1",
     "vue-style-loader": "^3.1.0",
     "vue-template-compiler": "^2.5.13",
+    "vue-ts-decorate": "^1.2.1",
     "zone.js": "0.8.18"
   },
   "devDependencies": {

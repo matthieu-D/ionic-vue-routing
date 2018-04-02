@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
   <meta charset="UTF-8">
   <title>Ionic App</title>
@@ -35,8 +36,14 @@
 <body>
 
   <div id="app">
-    <vue-parent-node></vue-parent-node>
-    <ts-parent-node></ts-parent-node>
+    <router-link to="/about">About</router-link>
+    <router-link to="/about/1">About user 1</router-link>
+    <router-link to="/contact">Contact</router-link>
+    <router-link to="/contact/1">Contact user 1</router-link>
+    <router-link to="/black">Go to the named route</router-link>
+    <router-link :to="{name: 'white'}">Go to the same named route</router-link>
+    <router-link to="/parent">Go to the nested part</router-link>
+    <router-view></router-view>
   </div>
 
   <!-- The polyfills js is generated during the build process -->
@@ -50,4 +57,5 @@
   <script src="build/main.js"></script>
 
 </body>
+
 </html>
